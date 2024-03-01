@@ -19,7 +19,7 @@ code --install-extension polarity-0.0.1.vsix
 To install `vsce` via `npm`, run:
 
 ```sh
-npm install -g vsce
+npm install -g @vscode/vsce
 ```
 
 ## Develop
