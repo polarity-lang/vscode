@@ -5,13 +5,13 @@ import * as vscodelang from "vscode-languageclient";
 
 let client: vscodelang.LanguageClient;
 
-// This method is called when the "xfn" extension is activated.
+// This method is called when the "pol" extension is activated.
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "xfn" is now active!');
+  console.log('Congratulations, your extension "polarity" is now active!');
 
-  let config = vscode.workspace.getConfiguration("xfn");
+  let config = vscode.workspace.getConfiguration("pol");
 
-  let defaultCmd = "xfunc";
+  let defaultCmd = "pol";
   let langCmd = config.get<string>("executable") || defaultCmd;
 
   // Assemble arguments
@@ -35,15 +35,15 @@ export function activate(context: vscode.ExtensionContext) {
     documentSelector: [
       {
         scheme: "file",
-        language: "xfn",
+        language: "pol",
       },
     ],
-    diagnosticCollectionName: "xfn",
+    diagnosticCollectionName: "pol",
   };
 
   client = new vscodelang.LanguageClient(
-    "xfnLanguageServer",
-    "XFN Language Server",
+    "polLanguageServer",
+    "Polarity Language Server",
     serverOptions,
     clientOptions
   );
