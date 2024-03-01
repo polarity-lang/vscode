@@ -20,4 +20,4 @@ jobs:
           prerelease: false
           title: "VSCode Extension"
           files: |
-            xfn-0.0.1.vsix
+            polarity-0.0.1.vsix
