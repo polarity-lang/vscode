@@ -1,8 +1,23 @@
 {
   "name": "polarity",
-  "displayName": "polarity",
-  "description": "LSP client for the polarity language.",
+  "displayName": "Polarity-Lang Extension",
+  "description": "Language services for polarity-lang.",
+  "publisher": "polarity-lang",
+  "contributors": [
+    "Tim Süberkrüb",
+    "David Binder"
+  ],
   "version": "0.0.1",
+  "pricing": "Free",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polarity-lang/polarity-lang-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polarity-lang/polarity-lang-vscode/issues"
+  },
+  "homepage": "https://github.com/polarity-lang/polarity-lang-vscode/blob/main/README.md",
   "engines": {
     "vscode": "^1.69.0"
   },
