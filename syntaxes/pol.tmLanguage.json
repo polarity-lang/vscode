@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "xfn",
+  "name": "pol",
   "patterns": [
     { "include": "#keywords" },
     { "include": "#symbols" },
@@ -32,5 +32,5 @@
       ]
     }
   },
-  "scopeName": "source.xfn"
+  "scopeName": "source.pol"
 }
