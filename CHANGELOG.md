@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 The date format uses `DD.MM.YYYY`.
 
+## [0.0.4] - 11.3.2024
+
+- Fix bug in activation of LSP server
+
 ## [0.0.3] - 11.3.2024
 
 - Fix a botched release process
