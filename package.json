@@ -13,12 +13,12 @@
   "icon": "logo_white_256.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/polarity-lang/polarity-lang-vscode.git"
+    "url": "https://github.com/polarity-lang/vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/polarity-lang/polarity-lang-vscode/issues"
+    "url": "https://github.com/polarity-lang/vscode/issues"
   },
-  "homepage": "https://github.com/polarity-lang/polarity-lang-vscode/blob/main/README.md",
+  "homepage": "https://github.com/polarity-lang/vscode/blob/main/README.md",
   "engines": {
     "vscode": "^1.69.0"
   },
