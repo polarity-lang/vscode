@@ -35,7 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
     documentSelector: [
       {
         scheme: "file",
-        language: "pol",
+        language: "polarity",
       },
     ],
     diagnosticCollectionName: "pol",
