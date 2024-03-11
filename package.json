@@ -10,7 +10,7 @@
   "version": "0.0.1",
   "pricing": "Free",
   "license": "MIT",
-  "icon": "logo_white_256.png",
+  "icon": "logo_transparent_256.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/polarity-lang/vscode.git"
@@ -44,7 +44,7 @@
     ],
     "grammars": [
       {
-        "language": "pol",
+        "language": "polarity",
         "scopeName": "source.pol",
         "path": "./syntaxes/pol.tmLanguage.json"
       }
