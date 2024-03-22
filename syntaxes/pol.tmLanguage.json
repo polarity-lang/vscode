@@ -11,7 +11,7 @@
       "patterns": [
         {
           "name": "keyword.control",
-          "match": "\\b(data|codata|impl|def|codef|match|comatch|absurd|Type)\\b"
+          "match": "\\b(data|codata|let|def|codef|match|comatch|absurd|Type)\\b"
         }
       ]
     },
