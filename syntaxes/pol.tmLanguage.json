@@ -4,7 +4,8 @@
   "patterns": [
     { "include": "#keywords" },
     { "include": "#symbols" },
-    { "include": "#comments" }
+    { "include": "#comments" },
+    { "include": "#strings" }
   ],
   "repository": {
     "keywords": {
@@ -26,8 +27,23 @@
     "comments": {
       "patterns": [
         {
-          "match": "--.*$\n?",
+          "match": "--.*$",
           "name": "comment.line.double-dash.syntax"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape",
+              "match": "\\\\."
+            }
+          ]
         }
       ]
     }
