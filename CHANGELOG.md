@@ -6,9 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 The date format is `YYYY-MM-DD`.
 
-## Unreleased
+## [0.0.9] - 2024-11-27
 
-- Use esbuild to bundle the extension; this reduces the size of the extension from 3.2MB to roughly 50KB.
+- Use esbuild to bundle the extension; this reduces the size of the extension from 3.2MB to roughly 50KB. [#7](https://github.com/polarity-lang/vscode/pull/7)
+- Use a new automatic release action which releases both to the Microsoft VSCode marketplace and to the Eclipse open-vsx marketplace. [#8](https://github.com/polarity-lang/vscode/pull/8)
+- Update some npm dependencies [#10](https://github.com/polarity-lang/vscode/pull/10)
 
 ## [0.0.8] - 2024-11-14
 
