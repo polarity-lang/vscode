@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 The date format is `YYYY-MM-DD`.
 
+## Unreleased
+
+- Change comment syntax from `--` to `//`.
+
 ## [0.0.9] - 2024-11-27
 
 - Use esbuild to bundle the extension; this reduces the size of the extension from 3.2MB to roughly 50KB. [#7](https://github.com/polarity-lang/vscode/pull/7)
