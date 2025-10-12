@@ -9,6 +9,7 @@ The date format is `YYYY-MM-DD`.
 ## [Unreleased]
 
 - Add `note` to the set of syntax-highlighted keywords
+- Add syntax highlighting for character literals
 
 ## [0.0.11] - 2025-03-31
 
