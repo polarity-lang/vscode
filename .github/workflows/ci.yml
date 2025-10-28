@@ -22,7 +22,7 @@ jobs:
           vsce package
       - name: Release VSIX file
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: softprops/actions-gh-release@v2
+        uses: softprops/action-gh-release@v2
         with:
           make_latest: true
           files: |
