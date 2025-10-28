@@ -1,0 +1,30 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+    pull-request:
+      types:
+        - opened
+        - synchronize
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create package
+        run: |
+          npm install
+          npm install -g @vscode/vsce
+          vsce package
+      - name: Release VSIX file
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: softprops/actions-gh-release@v2
+        with:
+          make_latest: true
+          files: |
+            *.vsix
+            CHANGELOG.md
