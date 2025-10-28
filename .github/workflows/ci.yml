@@ -15,6 +15,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Delete latest tag
+        run: gh release delete latest --cleanup-tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create package
         run: |
           npm install
@@ -24,6 +28,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: latest
           make_latest: true
           files: |
             *.vsix
