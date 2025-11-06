@@ -19,6 +19,8 @@ jobs:
         run: gh release delete latest --cleanup-tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run npm ci
+        run: npm ci
       - name: Create package
         run: |
           npm install
