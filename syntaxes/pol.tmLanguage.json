@@ -13,7 +13,7 @@
       "patterns": [
         {
           "name": "keyword.control",
-          "match": "\\b(data|codata|let|def|codef|match|comatch|absurd|Type|implicit|use|infix|note)\\b"
+          "match": "\\b(data|codata|let|def|codef|match|comatch|absurd|Type|implicit|use|infix|note|extern)\\b"
         }
       ]
     },
@@ -39,13 +39,13 @@
           "name": "string.quoted.double",
           "begin": "\"",
           "end": "\"",
-          "patterns": [ { "include": "#escapes" } ]
+          "patterns": [{ "include": "#escapes" }]
         },
         {
           "name": "string.quoted.single.char",
           "begin": "'",
           "end": "'",
-          "patterns": [ { "include": "#escapes" } ]
+          "patterns": [{ "include": "#escapes" }]
         }
       ]
     },
