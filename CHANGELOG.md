@@ -11,6 +11,7 @@ The date format is `YYYY-MM-DD`.
 - Add `note` to the set of syntax-highlighted keywords
 - Add syntax highlighting for character literals
 - Add syntax highlighting for identifiers
+- Add `extern` to the set of syntax-highlighted keywords
 
 ## [0.0.11] - 2025-03-31
 
