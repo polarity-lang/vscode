@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Delete latest tag
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: gh release delete latest --cleanup-tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
