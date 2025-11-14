@@ -8,10 +8,12 @@ The date format is `YYYY-MM-DD`.
 
 ## [Unreleased]
 
-- Add `note` to the set of syntax-highlighted keywords
-- Add syntax highlighting for character literals
-- Add syntax highlighting for identifiers
-- Add `extern` to the set of syntax-highlighted keywords
+## [0.0.12] - 2025-11-14
+
+- Add `note` to the set of syntax-highlighted keywords [#17](https://github.com/polarity-lang/vscode/pull/17)
+- Add syntax highlighting for character literals [#18](https://github.com/polarity-lang/vscode/pull/18)
+- Add syntax highlighting for identifiers [#23](https://github.com/polarity-lang/vscode/pull/23)
+- Add `extern` to the set of syntax-highlighted keywords [#26](https://github.com/polarity-lang/vscode/pull/26)
 
 ## [0.0.11] - 2025-03-31
 
