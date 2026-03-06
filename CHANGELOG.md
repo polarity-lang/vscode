@@ -8,6 +8,8 @@ The date format is `YYYY-MM-DD`.
 
 ## [Unreleased]
 
+- Add `do` and `<-` to the set of syntax-highlighted keywords/symbols
+
 ## [0.0.12] - 2025-11-14
 
 - Add `note` to the set of syntax-highlighted keywords [#17](https://github.com/polarity-lang/vscode/pull/17)
